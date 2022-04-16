@@ -1,0 +1,227 @@
+* {
+    text-decoration: none;
+  }
+  /* #home{
+      margin: 5% 0;
+  } */
+  #about{
+      margin: 5% 0;
+  }
+  #projects {
+    margin: 5% 0;
+}
+#blogs{
+    margin: 5% 0;
+}
+#contacts{
+    margin: 5% 0;
+}
+ 
+.profile-pic{
+    border-radius: 100%;
+    border: 2px dotted black;
+    height: 40%;
+    width: 20%;
+    margin-bottom: 2%;
+}
+.home-contents{
+    margin: 6% 0;
+}
+.profile-title{
+    font-size: 40px;
+}
+.profile-domain{
+    font-size: 30px;
+}
+  .btn-view{
+    width: 15%;
+    padding: 1% 0.5%;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .btn-view:hover {
+    color: rgb(236, 216, 226);
+    background-color: rgb(13, 76, 131);
+  }
+  .nav-link:hover {
+    font-weight: bold;
+  }
+  
+  .pro-link {
+    background-color: #74069c;
+    color: white;
+    font-weight: 500;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #74069c;
+  }
+  .pro-link:hover{
+    background-color: #4a2059;
+    color: white;
+    font-weight: 500;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #4a2059;
+  }
+.project-head{
+    font-size: 35px;
+    text-align: center;
+    margin: 2% 0;
+}
+.contact-head{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2% ;
+}
+.project-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:780px){
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .profile-pic{
+        border-radius: 100%;
+        border: 2px dotted black;
+        height: 40%;
+        width: 25%;
+    }
+    .profile-title{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    .profile-domain{
+        font-size: 13px;
+    }
+    .btn-view{
+        width: 40%;
+        padding: 0.5% 0.25%;
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 10px;
+      }
+      .about-head , .project-head , .blog-head {
+          font-size: 20px
+      }  
+}
+
+.about-head{
+    font-size: 35px;
+    text-align: center;
+    margin: 2% 0;
+}
+.about-content{
+    font-size: 21px;
+    color: #71115f;
+}
+.blog-head{
+    font-size: 35px;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project-img , .blog-img{
+    height: 70%;
+    width: 100%;
+}
+
+.btn-prop{
+    background-color: bisque;
+}
+.btn-prop:hover{
+    background-color: rgb(111, 0, 255);
+    color: aliceblue;
+}
+.contact-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group{
+    width: 200%;
+    margin: 1% 0;
+}
+.contact-vid{
+    height: 100%;
+    width: 100%;
+}
+.footer-content{
+    background-color: black;
+    color: azure;
+    height: 100%;
+}
+
+@media screen and (max-width:780px){
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .profile-pic{
+        border-radius: 100%;
+        border: 2px dotted black;
+        height: 40%;
+        width: 25%;
+    }
+    .profile-title{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    .profile-domain{
+        font-size: 13px;
+    }
+    .btn-view{
+        width: 40%;
+        padding: 0.5% 0.25%;
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 10px;
+      }
+      .about-head , .project-head , .blog-head {
+          font-size: 20px
+      }  
+      .contact-holder{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form-group{
+        width: 100%;
+        margin: 1% 0;
+    }
+    .contact-vid{
+        height: 100%;
+        width: 100%;
+    }
+    .home-container{
+        margin: 5% 0;
+     }
+     .home-contents{
+         padding-top: 2%;
+     }
+     .contact-head{
+        font-size: 20px;
+    }
+    .about-content{
+        font-size: 15px;
+        color: #71115f;
+        margin-bottom: 2%;
+    }
+    .qualification-head{
+        font-size: 18px;
+    }
+}
